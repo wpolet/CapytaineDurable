@@ -1,0 +1,88 @@
+﻿Ca__py__taineDurable – Jeu vidéo Python pour enseigner le développement durable aux enfants.
+
+Le développement durable peut être défini comme: «un développement qui répond aux besoins du présent sans compromettre la capacité 
+des générations futures de répondre aux leurs». Afin de répondre à cette crise environnementale, sociale et économique, l’UNEP a 
+structuré le développement durable autour de 17 objectifs à remplir. Le but de ce projet est de développer un jeu vidéo écrit en 
+Python permettant de sensibiliser et de former les plus jeunes (8-15 ans) à ces 17 objectifs. 
+Pour cela, il existe déjà des librairies intéressantes comme pygame, ainsi que de nombreux projets dont l’étudiant pourra s’inspirer.
+
+Prérequis : Bonne connaissance de Python, imagination et créativité.
+Niveau de difficulté : **
+
+----------------------------------------------------------------------------------------------------------------------------------------
+17 objectifs: https://www.un.org/sustainabledevelopment/fr/objectifs-de-developpement-durable/
+
+UNEP = Programme des Nations Unies pour l'Environnement
+
+
+----------------------------------------------------------------------------------------
+----TO DO-----
+
+Fonctionnalités:
+-Amélioration des maps (gate) + carte du monde
+-Scénario: dialogues adaptés au sexe et prénom du perso
+-Musique/effets sonores
+-Embellissement
+-Chap 0: Tuto
+-Ecran obtention des outils
+-inventaire
+
+
+
+-------------------------------------------------------------------------------------------
+
+	Usine --------- Chateau --------- Montagne
+			   |		     |
+			   |		     |
+	Paturage ------ VillageA --------- Champ
+			   |		     |
+			   |		     |
+	VillageB ------ Départ --------- VillageC ------- Foret
+
+
+
+1) Pas de pauvreté:
+	job à l'usine que personne ne veut faire -> travailleurs du villageC
+	(problème: pas payé comme les gens du chateau)
+2) Faim Zéro:
+	VillageC gagne de l'argent en vendant leur récolte au chateau mais chateau demande de trop
+	=> ils doivent choisir entre garder de la nourriture pour eux ou donner ce que je chateau demande et ne plus avoir assez pour eux
+	-> ils choissisent de donner au chateau sinon plus d'échange => plus d'argent
+	-> chateau peut pas baisser ses exigences car trop de monde à nourrir à la ville (meme si gaspillage)
+	=> 2 solutions: -chateau aide les villageois dans leur récolte (outils, champ)
+			-des villageois sont embauchés dans l'usine
+		+ stop au gaspillage
+3) Bonne santé et bien-être:
+	court terme: vaccin contre épidémie
+	long terme: création d'une tente médicale au villageC où des médecins/infirmiers du villageA viennent régulièrement (comme villageB)
+4) Education pour tous:
+	-Ecole primaire au villageA et école sup à la ville
+	-VillageC: école jusque 12 ans -> après travail
+	-Autres villages: école sup que pour les hommes
+	-Rencontre avec une étudiante voulant aller étudier à la ville
+	=> faire changer la loi grâce à une exception (petit à petit)
+5) Egalité entre les sexes:
+	-VillageB et C: homme gère les affaires en public mais femme aide dans l'ombre
+6) Eau propre et assainissement:
+	-créer puit au villageC
+---
+7) Energie propre et d’un coût abordable
+8) Travail décent et croissance économique
+9) Industrie, innovation et infrastructure
+10) Inégalités réduites
+11) Villes et communautés durables
+12) Consommation et production responsables
+---
+13) Mesures relatives à la lutte contre le changement climatique:
+	-Usine: pollution pas traitée car pas de travailleurs => nouveaux employés
+		-> pression sur le chateau car si eau polluée: plus de poissons dans villageB => plus de poissons au chateau
+	-> triangle d'aide entre Ville-villageB-villageC
+14) Vie aquatique:
+	-VillageB: eau polluée 
+15) Vie terrestre:
+	-VillageB: eau polluée => animaux malades
+	-VillageC: utilisation de bois de la foret pour construire batiments au village => destruciton de l'habitat de la faune locale
+	=> replanter arbres
+---
+16) Paix, justice et institutions efficaces
+17) Partenariats pour la réalisation des objectifs

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="5" height="5" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="9">
+ <tileset firstgid="1" source="assetsPack/interior_tileset.tsx"/>
+ <layer id="10" name="Ground" width="5" height="5">
+  <data encoding="csv">
+273,273,273,273,273,
+306,306,306,306,306,
+306,306,306,306,306,
+306,306,306,306,306,
+339,339,339,339,339
+</data>
+ </layer>
+ <layer id="12" name="Calque 2" width="5" height="5">
+  <data encoding="csv">
+0,0,0,0,2147483760,
+0,0,0,0,2147483793,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+ <layer id="13" name="Calque 3" width="5" height="5">
+  <data encoding="csv">
+162,0,162,0,0,
+195,0,195,0,0,
+316,0,0,0,0,
+349,0,0,0,0,
+0,0,296,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Calque d'objets 1">
+  <object id="1" name="mapB" type="gate" x="64" y="128" width="32" height="32">
+   <properties>
+    <property name="dx" type="int" value="0"/>
+    <property name="dy" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="2" type="obstacle" x="0" y="0" width="160" height="32"/>
+  <object id="3" name="mBnpc0" type="npc29" x="32" y="32" width="32" height="32">
+   <properties>
+    <property name="look_to" value="s"/>
+   </properties>
+  </object>
+  <object id="7" type="obstacle" x="128" y="32" width="32" height="32"/>
+  <object id="8" type="obstacle" x="0" y="64" width="32" height="64"/>
+ </objectgroup>
+</map>
